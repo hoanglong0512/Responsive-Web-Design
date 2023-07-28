@@ -12,12 +12,38 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+    <header id="header">
+      <div class="row">
+        <div class="col-12">
+          <p class="title">Chania</p>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="sidebar col-3 col-xs-12">
+        <ul class="menu">
+          <li class="menu-item">
+            Home
+            <ul class="sub-menu">
+              <li class="sub-menu-item">Home</li>
+              <li class="sub-menu-item">Home</li>
+              <li class="sub-menu-item">Home</li>
+              <li class="sub-menu-item">Home</li>
+              <li class="sub-menu-item">Home</li>
+            </ul>
+          </li>
+          <li class="menu-item">Home</li>
+          <li class="menu-item">Home</li>
+          <li class="menu-item">Home</li>
+          <li class="menu-item">Home</li>
+        </ul>
+      </section>
+      <section class="content col-9 col-xs-12">
+        <div>
+          <h1>The City</h1>
+          <button class="btn">Click</button>
+        </div>
+      </section>
     </main>
   </body>
 </html>
